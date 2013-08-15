@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Sample Mustache</title>
+	</head>
+
+	<body>
+		<div>
+			Shop Name : {{shop.name}}
+		</div>
+		<div>
+			{{#dynamicValueResolver.resolveDynamicValue}}
+				{{shop.name}}
+			{{/dynamicValueResolver.resolveDynamicValue}}
+		</div>
+	</body>
+
+</html>
+
+
+
