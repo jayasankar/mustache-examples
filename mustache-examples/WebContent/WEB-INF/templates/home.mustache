@@ -8,12 +8,10 @@
 
 	<body>
 		<div>
-			Shop Name : {{shop.name}}
+			{{> home_top}}
 		</div>
 		<div>
-			{{#dynamicValueResolver.resolveDynamicValue}}
-				{{shop.name}}
-			{{/dynamicValueResolver.resolveDynamicValue}}
+			{{> home_main}}
 		</div>
 	</body>
 

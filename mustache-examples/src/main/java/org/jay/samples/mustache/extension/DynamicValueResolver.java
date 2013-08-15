@@ -24,8 +24,7 @@ public class DynamicValueResolver {
 				if (StringUtils.trimWhitespace(key).equals("My Shop")) {
 					System.out.println("Go the same key");
 				}
-				System.out.println("Key : " + key);
-				out.write("Dynamic :" + key);
+				out.write("Dynamic Value Is :" + key);
 				
 			}
 		};
